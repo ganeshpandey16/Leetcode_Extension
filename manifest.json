@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode DSA Intuition Helper",
+  "version": "1.0",
+  "description": "Get intuition and complexity for LeetCode problems using Gemini.",
+  "host_permissions": [
+    "https://leetcode.com/problems/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"]
+    }
+  ]
+} 

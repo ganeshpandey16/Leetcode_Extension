@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeetCode DSA Intuition Helper</title>
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            width: 350px;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #2d185a 0%, #3a1c71 50%, #5f2c82 100%);
+            color: #e0e0f0;
+            min-height: 350px;
+        }
+        .container {
+            padding: 20px 18px 18px 18px;
+        }
+        .card {
+            background: rgba(44, 27, 94, 0.95);
+            border-radius: 18px;
+            box-shadow: 0 2px 12px 0 rgba(30, 0, 60, 0.15);
+            padding: 18px 16px;
+            margin-bottom: 18px;
+        }
+        #fetchBtn {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(90deg, #6a4cff 0%, #8f5cff 100%);
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 12px;
+            transition: background 0.2s;
+        }
+        #fetchBtn:hover {
+            background: linear-gradient(90deg, #8f5cff 0%, #6a4cff 100%);
+        }
+        #result {
+            margin-top: 10px;
+            white-space: pre-wrap;
+            font-size: 1rem;
+        }
+        b {
+            color: #a084ff;
+        }
+        i {
+            color: #f7cfff;
+        }
+        ul, ol {
+            margin: 8px 0 8px 18px;
+        }
+        .error {
+            color: #ff6b81;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button id="fetchBtn">Get Intuition & Complexity</button>
+        <div class="card">
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
