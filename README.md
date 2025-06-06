@@ -19,7 +19,7 @@ A Chrome extension and Python backend that fetches LeetCode problem descriptions
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/leetcode-dsa-intuition-helper.git
+git clone https://github.com/ganeshpandey16/Leetcode_Extension.git
 cd leetcode-dsa-intuition-helper
 ```
 
