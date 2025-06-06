@@ -1,6 +1,6 @@
 # LeetCode DSA Intuition Helper Chrome Extension
 
-A beautiful Chrome extension and Python backend that fetches LeetCode problem descriptions and uses Google Gemini to generate clear, well-formatted intuition and complexity explanations for any LeetCode problem.
+A Chrome extension and Python backend that fetches LeetCode problem descriptions and uses Google Gemini to generate clear, well-formatted intuition and complexity explanations for any LeetCode problem.
 
 ---
 
@@ -93,4 +93,4 @@ MIT
 
 ---
 
-**Enjoy building your DSA intuition with the power of Gemini and a beautiful Chrome extension!**
+**Enjoy building your DSA intuition with the power of Gemini and a powerful Chrome extension!**
